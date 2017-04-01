@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /drupal8
-    destination: /var/www/html/
+  - source: /drupal8/
+    destination: /var/www/html/drupal8/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
